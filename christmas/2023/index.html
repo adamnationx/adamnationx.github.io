@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Holiday Greetings!</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Happy Holidays! &#127876; &#127775;</h1>
+        <p>Wishing you a wonderful holiday season filled with joy, love, and peace. May the new year bring you happiness and prosperity.</p>
+        <p>- Adam, Ari, and Mintern</p>
+        <img class="holidayImg" src="img/christmas_onesies.jpg" alt="Ari and Adam smiling in matching Christmas onesies"
+            data-caption="Merry Christmas from Adam and Ari! &#9829;">
+        <p id="imgLabel">
+            We hope you enjoy these photos from our year<br />
+        </p>
+        <img class="holidayImg hidden" src="img/airport.jpg" alt="Adam and Ari"
+            data-caption="We traveled a lot in 2023" />
+        <img class="holidayImg hidden" src="img/ri.jpg" alt="Ari and Adam by the bay in Providence, Rhode Island"
+            data-caption="Started the year visiting Ari's family in Rhode Island" />
+        <img class="holidayImg hidden" src="img/sf.jpg" alt="Adam and Ari posing for a selfie in San Francisco"
+            data-caption="Explored San Francisco a bit where we had some bomb omakase (not pictured, but check out Robin if you're there!)" />
+        <img class="holidayImg hidden" src="img/adam_ari.jpg" alt="Adam and Ari posing in Santa Fe"
+            data-caption="Celebrated Ari's birthday in lovely Santa Fe" />
+        <img class="holidayImg hidden" src="img/santa_fe.jpg" alt="Ari and Adam at Sazón in Santa Fe"
+            data-caption="Ari's birthday dinner at Sazón in Santa Fe... the mole was for real fantastic." />
+        <img class="holidayImg hidden" src="img/red_rocks.jpg" alt="Ari and Adam at Red Rocks Amphitheater"
+            data-caption="Adam took Ari to her first show at Red Rocks (Sylvan Esso!)" />
+        <img class="holidayImg hidden" src="img/boston.jpg" alt="Ari and Adam at Sazón in Boston"
+            data-caption="We spent a little time in Boston for Adam's birthday -- great seafood and beer" />
+        <img class="holidayImg hidden" src="img/sam_adams.jpg" alt="Ari and Adam posing outside Sam Adams Brewery in Boston"
+            data-caption="Adam wanted to check out Sam Adam's Brewery in Boston -- the beer was okay, but we enjoyed the scenery." />
+        <img class="holidayImg hidden" src="img/xmas_tree.jpg" alt="Ari and Adam buying our Christmas tree"
+            data-caption="Ari introduced Adam to the joy of having a real Christmas tree" />
+        <img class="holidayImg hidden" src="img/xmas_hug.jpg" alt="Adam and Ari hugging in Christmas onesies"
+            data-caption="We hope your holidays and the new year are full of love and joy" />
+        <img class="holidayImg hidden" src="img/kitty_christmas.webp" alt="Kitty Christmas AI"
+            data-caption="We (okay, mostly Adam) also played with AI a lot this year. DALL-E 3 helped generate this image" />
+        <img class="holidayImg hidden" src="img/kitty_christmas_2.webp" alt="Kitty Christmas AI - Grinch edition"
+            data-caption="You're a mean one, Mr. Grinch! 😼 DALL-E 3 helped generate this image" />
+        <img class="holidayImg hidden" src="img/the_man.jpg" alt="Adam snuggling with our kitten, Mintern"
+            data-caption="By the way... Mintern aka 'The Man' -- This little guy has absolutely stolen my heart &#9829;" />
+        <img class="holidayImg hidden" src="img/too_cool.jpg" alt="Adam and Ari selfie on a chair together, Adam wearing sunglasses"
+            data-caption="May your days be merry and bright 😎 Happy New Year, y'all!" />
+    </div>
+    
+    <!-- Lightbox Overlay -->
+    <div id="lightboxOverlay" style="display: none;">
+        <span id="closeLightbox" style="cursor: pointer;">&times;</span>
+        <span class="lightboxArrow left" id="prevArrow">&#10094;</span>
+        <img id="lightboxImage" />
+        <div id="lightboxCaption"></div>
+        <span class="lightboxArrow right" id="nextArrow">&#10095;</span>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
